@@ -29,6 +29,9 @@ const sortedRobots = robots.map(function(robot) {
       alliance: "decepticon"
     });
   }
+  else{
+    return robot;
+  }
   
 });
 
