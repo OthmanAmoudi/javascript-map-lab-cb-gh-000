@@ -24,8 +24,9 @@ const zebraStripes = [
 
 const sortedRobots = robots.map(robot => {
   if (knownDecepticons.includes(robot["name"])){
-    robot["alliance"] = "decepticons";
+    return robot["alliance"] = "decepticons";
   }
+  
 });
 
 console.log(sortedRobots);
