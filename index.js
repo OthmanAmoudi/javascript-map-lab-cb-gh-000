@@ -23,5 +23,5 @@ const zebraStripes = [
 ];
 
 const sortedRobots = robots.map( ()=> {
-  console.log(robots.name);
+  console.log(robots["name"]);
 });
