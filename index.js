@@ -37,7 +37,7 @@ const sortedRobots = robots.map(function(robot) {
 
 const coloredZebraStripes = zebraStripes.map(stripe=>{
     var myColor = "white";
-    if (isOdd(stripe.width)){
+    if (stripe.width % 2){
       myColor = "black";
     }
       return Object.assign({},stripe,{
