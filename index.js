@@ -35,6 +35,21 @@ const sortedRobots = robots.map(function(robot) {
   
 });
 
+const coloredZebraStripes = zebraStripes.map(stripe=>{
+    var myColor = '';
+    if (stripe.width % 2 === 0){
+      myColor = "white";
+    }else{
+      myColor = "black";
+    }
+      return Object.assign({},stripe,{
+        width: stripe.width,
+        color: myColor
+      });
+      
+});
+
+
 console.log(sortedRobots);
 console.log("----------------")
 console.log(robots);
