@@ -36,4 +36,5 @@ const sortedRobots = robots.map(function(robot) {
 });
 
 console.log(sortedRobots);
-console.log(robots)
+console.log("----------------")
+console.log(robots);
