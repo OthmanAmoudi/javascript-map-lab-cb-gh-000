@@ -50,6 +50,6 @@ const coloredZebraStripes = zebraStripes.map(stripe=>{
 });
 
 
-console.log(sortedRobots);
+console.log(coloredZebraStripes);
 console.log("----------------")
-console.log(robots);
+console.log("kk");
